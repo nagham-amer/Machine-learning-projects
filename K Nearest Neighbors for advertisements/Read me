@@ -1,0 +1,5 @@
+This project is developed to help the advertising company to know whether the internet user will click on ad or not 
+KNN model is used in this task based on the internet user other features 
+the dataset can be found in "advertising.csv" file
+the jupyter notbook is found in "KNN advertisement.ipynb" file
+the task explanation and the method used in this project can be found in "advertising task explanation"
