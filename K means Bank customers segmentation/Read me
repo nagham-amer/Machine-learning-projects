@@ -1,0 +1,5 @@
+Bank customers clustering segmentation
+In this project, the customers of the bank can be classified based on many features into distinguished groups. This project could be practically applied at any marketing department in the banking and retail industries to segment customers into 'clusters'. In this work after exploring and cleaning the data, k-means using Scikit-Learn has been applied to perform customer segmentation.
+The data of the customers of the bank can be found in “datasets_bank” Excel file
+The methodology is explained in the “Explanation” pdf file
+The coding can be found in “bank customer segmentation” ipynb file 
