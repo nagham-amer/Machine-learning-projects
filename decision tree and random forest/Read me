@@ -1,0 +1,4 @@
+In this project, whether the debtor can pay the loan or not can be predict using decision tree and random forest model. .
+The data of the loans o can be found in “loans_data.csv” Excel file
+The methodology is explained in the “Explanation” pdf file
+The coding can be found in “decision tree and random forest-loan” ipynb file 
