@@ -1,1 +1,19 @@
 
+Computer vision for casting manufacture products
+Defects are an unwanted thing in casting industry. For removing this defective product all industry has their quality inspection department. But the main problem is this inspection process is carried out manually. It is a very time-consuming process and due to human accuracy, this is not 100% accurate. This can because of the rejection of the whole order. So , it creates a big loss in the company.
+Deep learning using CNN can help to classify the image as ok or def. 
+1-	Data Preprocessing
+•	The first step is to normalize the image to pixel (0-255)
+•	Apply image augmentation to prevent overfitting, such as rotate the image
+Image data augmentation is a technique that can be used to artificially expand the size of a training dataset by creating modified versions of images in the dataset. ... The Keras deep learning neural network library provides the capability to fit models using image data augmentation via the ImageDataGenerator class.
+2-	Build the CNN
+•	Build convolution layer, filter indicator to create feature map, filter can be 3*3,5*5 or7*7.
+In convolutional networks, multiple filters are taken to slice through the image and map them one by one and learn different portions of an input image. Imagine a small filter sliding left to right across the image from top to bottom and that moving filter is looking for, say, a dark edge
+•	Pool the maximum feature from the feature map using Maxpool.
+•	Flatten the pooling matrix to get one dimensional array
+•	Use this array as input
+•	Build the connection layer with activation function Relu(increase the nonleanirity)
+•	Build the output layer with sigmoid function
+•	Compile the CNN model using optimizer (adam) to update the weight and cost function (binary cross entropy) to calculate the error.
+•	Fit the model to the training dataset and evaluate the model using test dataset.
+•	See the classification repo
