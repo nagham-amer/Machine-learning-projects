@@ -1,7 +1,8 @@
 
 Computer vision for casting manufacture products
 Defects are an unwanted thing in casting industry. For removing this defective product all industry has their quality inspection department. But the main problem is this inspection process is carried out manually. It is a very time-consuming process and due to human accuracy, this is not 100% accurate. This can because of the rejection of the whole order. So , it creates a big loss in the company.
-Deep learning using CNN can help to classify the image as ok or def. 
+Deep learning using CNN can help to classify the image as ok or def. The data can be found here https://www.kaggle.com/ravirajsinh45/real-life-industrial-dataset-of-casting-product
+
 1-	Data Preprocessing
 •	The first step is to normalize the image to pixel (0-255)
 •	Apply image augmentation to prevent overfitting, such as rotate the image
